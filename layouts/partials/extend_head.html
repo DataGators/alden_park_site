@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{ $style := resources.Get "css/extended/custom.css" }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body>
+    <header class="enigma-header">
+        <div class="header-classified">
+            <span class="classified-text">⚡ CLASSIFIED OPERATION ⚡</span>
+        </div>
+        <div class="header-logo">
+            <h1>CODE-A-THON: ALDENPARK</h1>
+            <p class="tagline">Break Codes. Build Software. Make History.</p>
+        </div>
+        <div class="header-morse">
+            <span>- ·· · · · / - ·· · · · / - ·· · · · / - ·· · · · / - ·· · · ·</span>
+        </div>
+    </header>

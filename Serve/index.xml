@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Code-A-Thon: AldenPark</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Code-A-Thon: AldenPark</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caesar Cipher</title>
+      <link>https://example.org/codes/caesar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/caesar/</guid>
+      <description>The ancient Roman shift cipher</description>
+    </item>
+    <item>
+      <title>Vigenère Cipher</title>
+      <link>https://example.org/codes/vigenere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/vigenere/</guid>
+      <description>The polyalphabetic &amp;#39;unbreakable&amp;#39; cipher</description>
+    </item>
+    <item>
+      <title>Substitution Cipher</title>
+      <link>https://example.org/codes/substitution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/substitution/</guid>
+      <description>Random letter mapping and pattern analysis</description>
+    </item>
+    <item>
+      <title>Mystery Cipher</title>
+      <link>https://example.org/codes/mystery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/mystery/</guid>
+      <description>Details classified until event day</description>
+    </item>
+    <item>
+      <title>Morse Code</title>
+      <link>https://example.org/codes/morse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/morse/</guid>
+      <description>The telegraph communication system</description>
+    </item>
+    <item>
+      <title>Welcome to Code-A-Thon: AldenPark!</title>
+      <link>https://example.org/posts/welcome/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/welcome/</guid>
+      <description>Introducing Allegheny College&amp;#39;s first code-breaking hackathon</description>
+    </item>
+    <item>
+      <title>About Code-A-Thon: AldenPark</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description>Learn about the event, its inspiration, and what to expect</description>
+    </item>
+    <item>
+      <title>Breaking Codes</title>
+      <link>https://example.org/breaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/breaking/</guid>
+      <description>Cryptanalysis techniques and strategies for code-breaking</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/contact/</guid>
+      <description>Get in touch with the organizers</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://example.org/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/resources/</guid>
+      <description>Helpful tools, references, and materials for aspiring codebreakers</description>
+    </item>
+    <item>
+      <title>Rules &amp; FAQ</title>
+      <link>https://example.org/rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/rules/</guid>
+      <description>Event rules, guidelines, and frequently asked questions</description>
+    </item>
+    <item>
+      <title>Tips for Success</title>
+      <link>https://example.org/tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tips/</guid>
+      <description>Strategies and advice for excelling at Code-A-Thon: AldenPark</description>
+    </item>
+  </channel>
+</rss>

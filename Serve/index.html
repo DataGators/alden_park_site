@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.155.2"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Code-A-Thon: AldenPark</title>
+
+<meta name="description" content="Break codes. Build software. Make history.">
+<meta name="author" content="DataGators &amp; ACM Club">
+<link rel="canonical" href="https://example.org/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5aa3f5ddd1cd81b5c8b2607edddf4d7f49d5e1fdc1652b71dffa39842fe44ccf.css" integrity="sha256-WqP13dHNgbXIsmB&#43;3d9Nf0nV4f3BZStx3/o5hC/kTM8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://example.org/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="https://example.org/index.json" title="json">
+<link rel="alternate" hreflang="en" href="https://example.org/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-A-Thon: AldenPark | Code-A-Thon: AldenPark</title>
+    
+    <link rel="stylesheet" href="https://example.org/css/extended/custom.css">
+</head>
+<body>
+    <header class="enigma-header">
+        <div class="header-classified">
+            <span class="classified-text">⚡ CLASSIFIED OPERATION ⚡</span>
+        </div>
+        <div class="header-logo">
+            <h1>CODE-A-THON: ALDENPARK</h1>
+            <p class="tagline">Break Codes. Build Software. Make History.</p>
+        </div>
+        <div class="header-morse">
+            <span>- ·· · · · / - ·· · · · / - ·· · · · / - ·· · · · / - ·· · · ·</span>
+        </div>
+    </header>
+<meta property="og:url" content="https://example.org/">
+  <meta property="og:site_name" content="Code-A-Thon: AldenPark">
+  <meta property="og:title" content="Code-A-Thon: AldenPark">
+  <meta property="og:description" content="Break codes. Build software. Make history.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Code-A-Thon: AldenPark">
+<meta name="twitter:description" content="Break codes. Build software. Make history.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Code-A-Thon: AldenPark",
+  "url": "https://example.org/",
+  "description": "A WWII Bletchley Park-inspired code-breaking hackathon at Allegheny College",
+  "logo": "https://example.org/favicon.ico",
+  "sameAs": [
+      "https://github.com/"
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://example.org/" accesskey="h" title="Code-A-Thon: AldenPark (Alt + H)">Code-A-Thon: AldenPark</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://example.org/" title="🏠 Home">
+                    <span class="active">🏠 Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/about/" title="📖 About">
+                    <span>📖 About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/codes/" title="🔐 The Codes">
+                    <span>🔐 The Codes</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/codes/morse/" title="📡 Morse Code">
+                    <span>📡 Morse Code</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/breaking/" title="🔨 Breaking Codes">
+                    <span>🔨 Breaking Codes</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/rules/" title="📋 Rules &amp; FAQ">
+                    <span>📋 Rules &amp; FAQ</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/tips/" title="💡 Tips">
+                    <span>💡 Tips</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/contact/" title="📞 Contact">
+                    <span>📞 Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/resources/" title="📚 Resources">
+                    <span>📚 Resources</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/posts/" title="📢 News">
+                    <span>📢 News</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.org/search/" title="🔍 Search (Alt &#43; /)" accesskey=/>
+                    <span>🔍 Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<div class="post-content"><h2 id="-welcome-to-operation-codebreaker">🎖️ Welcome to Operation Codebreaker<a hidden class="anchor" aria-hidden="true" href="#-welcome-to-operation-codebreaker">#</a></h2>
+<div class="classified-stamp">TOP SECRET</div>
+<p>In the darkest days of World War II, the brilliant minds at <strong>Bletchley Park</strong> cracked the seemingly unbreakable Enigma code, turning the tide of history. Now, <strong>you</strong> have the opportunity to follow in their footsteps.</p>
+<p>The <strong>DataGators</strong> and <strong>ACM Club</strong> at Allegheny College invite you to participate in an extraordinary coding challenge that combines historical codebreaking with modern computational thinking.</p>
+<div class="morse-divider">- ·· · · ·</div>
+<h2 id="-event-snapshot">⚡ Event Snapshot<a hidden class="anchor" aria-hidden="true" href="#-event-snapshot">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Detail</th>
+          <th>Information</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Event Name</strong></td>
+          <td>Code-A-Thon: AldenPark</td>
+      </tr>
+      <tr>
+          <td><strong>Date</strong></td>
+          <td>Saturday Afternoon (TBA)</td>
+      </tr>
+      <tr>
+          <td><strong>Duration</strong></td>
+          <td>6 Hours of Intensive Codebreaking</td>
+      </tr>
+      <tr>
+          <td><strong>Location</strong></td>
+          <td>Allegheny College</td>
+      </tr>
+      <tr>
+          <td><strong>Team Size</strong></td>
+          <td>1-4 Members per Team</td>
+      </tr>
+      <tr>
+          <td><strong>Registration</strong></td>
+          <td>On-site desk with lanyards &amp; stickers</td>
+      </tr>
+      <tr>
+          <td><strong>Prizes</strong></td>
+          <td>Exclusive T-shirts &amp; Awards</td>
+      </tr>
+  </tbody>
+</table>
+<div class="morse-divider">- ·· · · ·</div>
+<h2 id="-the-mission">🔐 The Mission<a hidden class="anchor" aria-hidden="true" href="#-the-mission">#</a></h2>
+<p>Your mission, should you choose to accept it, is to decrypt a series of <strong>encrypted messages</strong> using any computational methods at your disposal. You&rsquo;ll encounter:</p>
+<ul>
+<li><strong>Caesar Ciphers</strong> - The ancient Roman encryption method</li>
+<li><strong>Vigenère Ciphers</strong> - The &ldquo;unbreakable&rdquo; polyalphabetic cipher</li>
+<li><strong>Substitution Ciphers</strong> - Pattern recognition challenges</li>
+<li><strong>Morse Code</strong> - The telegraph language of WWII</li>
+<li><strong>And more mysterious codes&hellip;</strong> 🕵️</li>
+</ul>
+<p>Each code presents unique challenges requiring different approaches. Teams will design, implement, and execute software solutions to crack these codes faster and more efficiently than their competitors.</p>
+<div class="alert-box">
+⚠️ CHALLENGE LEVEL: These codes are challenging but achievable. Strategy, teamwork, and creative thinking are your greatest assets.
+</div>
+<h2 id="-what-youll-win">🏆 What You&rsquo;ll Win<a hidden class="anchor" aria-hidden="true" href="#-what-youll-win">#</a></h2>
+<p>The victorious codebreakers will receive:</p>
+<ul>
+<li>Exclusive Code-A-Thon t-shirts</li>
+<li>Recognition as master codebreakers</li>
+<li>Bragging rights for eternity</li>
+<li>Additional surprise awards</li>
+</ul>
+<div class="morse-divider">- ·· · · ·</div>
+<h2 id="-ready-to-begin">🚀 Ready to Begin?<a hidden class="anchor" aria-hidden="true" href="#-ready-to-begin">#</a></h2>
+<div class="typewriter">
+"Every code is a puzzle waiting to be solved. Every cipher has a weakness. Will you be the one to find it?"
+</div>
+<p>Explore the site to learn about:</p>
+<ul>
+<li><strong><a href="/codes/">The Codes</a></strong> - Deep dives into each encryption method</li>
+<li><strong><a href="/breaking/">Breaking Techniques</a></strong> - Strategies and algorithms</li>
+<li><strong><a href="/rules/">Rules &amp; FAQ</a></strong> - Everything you need to know</li>
+<li><strong><a href="/contact/">Contact</a></strong> - Reach out to organizers</li>
+</ul>
+<hr>
+<p><em>Organized by the DataGators and ACM Club at Allegheny College</em></p>
+<div class="morse-divider">···− −−− −−− −·· ·−·· ··− −·−· −·−</div>
+
+
+</div>
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>⚡ Code-A-Thon: AldenPark ⚡</h1>
+    </header>
+    <div class="entry-content">
+        <p><strong>Operation Codebreaker</strong> - A WWII-inspired hackathon where student teams crack encrypted messages using computational methods.</p>
+<p>📅 <strong>Date:</strong> TBA (Saturday Afternoon)<br>
+⏱️ <strong>Duration:</strong> 6 Hours<br>
+👥 <strong>Team Size:</strong> Up to 4 members<br>
+🎁 <strong>Prizes:</strong> T-shirts &amp; Awards<br>
+📍 <strong>Location:</strong> Allegheny College</p>
+<p>Break codes. Build software. Make history.</p>
+
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Caesar Cipher
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>🏛️ Caesar Cipher: The Ancient Shift DECLASSIFIED The Caesar Cipher is one of the oldest known encryption techniques, dating back to Julius Caesar (100-44 BC), who used it to protect military messages. It’s a type of substitution cipher where each letter is shifted by a fixed number of positions in the alphabet.
+- ·· · · · 📜 Historical Background Julius Caesar’s Method Roman historian Suetonius documented Caesar’s use of this cipher:
+...</p>
+  </div>
+  <footer class="entry-footer"><span>5 min</span>&nbsp;·&nbsp;<span>918 words</span>&nbsp;·&nbsp;<span>DataGators &amp; ACM Club</span></footer>
+  <a class="entry-link" aria-label="post link to Caesar Cipher" href="https://example.org/codes/caesar/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Vigenère Cipher
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>🇫🇷 Vigenère Cipher: Le Chiffre Indéchiffrable SECRET The Vigenère Cipher was long considered unbreakable—earning the nickname “le chiffre indéchiffrable” (the indecipherable cipher). It uses a keyword to apply multiple Caesar shifts, making simple frequency analysis ineffective.
+- ·· · · · 📜 Historical Background Origins 1467: First described by Leon Battista Alberti 1553: Refined by Giovan Battista Bellaso 1586: Misattributed to Blaise de Vigenère (name stuck) 1863: Finally broken by Friedrich Kasiski Famous Uses The Vigenère cipher was used by:
+...</p>
+  </div>
+  <footer class="entry-footer"><span>8 min</span>&nbsp;·&nbsp;<span>1498 words</span>&nbsp;·&nbsp;<span>DataGators &amp; ACM Club</span></footer>
+  <a class="entry-link" aria-label="post link to Vigenère Cipher" href="https://example.org/codes/vigenere/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Substitution Cipher
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>🔀 Substitution Cipher: The Pattern Puzzle RESTRICTED The Substitution Cipher (or monoalphabetic substitution) replaces each letter with another letter according to a fixed substitution alphabet. Unlike Caesar’s simple shift, the substitution can be random, creating $26!$ possible keys (roughly $4 \times 10^{26}$).
+- ·· · · · 📜 Historical Background Ancient Origins Hebrew Atbash Cipher (~500 BC) - Reverse alphabet (A↔Z, B↔Y) Arabic cryptographers (9th century) - First frequency analysis Medieval Europe - Used for diplomatic communications Famous Uses Mary, Queen of Scots (1586) - Her cipher was broken, leading to her execution Sherlock Holmes - “The Adventure of the Dancing Men” features a substitution cipher Newspaper puzzles - Cryptograms are substitution ciphers &#34;In 1586, Thomas Phelippes broke Mary Stuart&#39;s cipher in just hours, sealing her fate on the executioner&#39;s block.&#34; - ·· · · · 🔧 How It Works The Substitution Alphabet Create a random mapping of letters:
+...</p>
+  </div>
+  <footer class="entry-footer"><span>6 min</span>&nbsp;·&nbsp;<span>1262 words</span>&nbsp;·&nbsp;<span>DataGators &amp; ACM Club</span></footer>
+  <a class="entry-link" aria-label="post link to Substitution Cipher" href="https://example.org/codes/substitution/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mystery Cipher
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>❓ Mystery Cipher: The Unknown Challenge TOP SECRET ⚠️ CLASSIFICATION LEVEL: MAXIMUM Details about the Mystery Cipher are CLASSIFIED until the event begins. Only then will the nature of this challenge be revealed. - ·· · · · 🎭 What We Can Tell You General Information Difficulty: Advanced Type: To be determined on event day Points: Highest point value of all challenges Expected Solve Time: Variable (some teams may not complete it) What to Expect The Mystery Cipher could be:
+...</p>
+  </div>
+  <footer class="entry-footer"><span>5 min</span>&nbsp;·&nbsp;<span>1037 words</span>&nbsp;·&nbsp;<span>DataGators &amp; ACM Club</span></footer>
+  <a class="entry-link" aria-label="post link to Mystery Cipher" href="https://example.org/codes/mystery/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Morse Code
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>📡 Morse Code: The Language of Telegraph INTERCEPTED Morse Code is a character encoding scheme that represents text as sequences of two signal durations: dots (·) and dashes (−). Developed in the 1830s-1840s, it revolutionized long-distance communication and played a crucial role in both World Wars.
+- ·· · · · 📜 Historical Background Invention &amp; Development Samuel Morse &amp; Alfred Vail (1830s-1840s):
+Samuel F.B. Morse developed the original code Alfred Vail refined it based on letter frequency First message: “What hath God wrought” (May 24, 1844) Transmitted from Washington D.C. to Baltimore &#34;What hath God wrought&#34; in Morse: ·-- ···· ·- - / ···· ·- - ···· / --· --- -·· / ·-- ·-· --- ··- --· ···· - Military Significance Morse code became essential in military communications:
+...</p>
+  </div>
+  <footer class="entry-footer"><span>12 min</span>&nbsp;·&nbsp;<span>2477 words</span>&nbsp;·&nbsp;<span>DataGators &amp; ACM Club</span></footer>
+  <a class="entry-link" aria-label="post link to Morse Code" href="https://example.org/codes/morse/"></a>
+</article>
+    </main>
+    <footer class="enigma-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>⚡ Code-A-Thon: AldenPark</h3>
+            <p class="footer-tagline">A WWII Bletchley Park-inspired code-breaking hackathon</p>
+            <p class="footer-detail">📅 Saturday Afternoon (TBA) | ⏱️ 6 Hours | 📍 Allegheny College</p>
+        </div>
+        
+        <div class="footer-morse-line">
+            <span class="morse-code">- ·· · · · / ·-· ·-·· ·- ··· ··· ·· ·-· ·· · -··</span>
+        </div>
+        
+        <div class="footer-organizers">
+            <p><strong>Organized by:</strong> The DataGators 🐊 & ACM Club 💻</p>
+            <p><strong>Allegheny College Computer Science Department</strong></p>
+        </div>
+        
+        <div class="footer-links">
+            <a href="/">Home</a> | 
+            <a href="/about/">About</a> | 
+            <a href="/codes/">The Codes</a> | 
+            <a href="/breaking/">Breaking Techniques</a> | 
+            <a href="/rules/">Rules</a> | 
+            <a href="/contact/">Contact</a>
+        </div>
+        
+        <div class="footer-quote">
+            <p><em>"Every code is a puzzle waiting to be solved."</em></p>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2026 Code-A-Thon: AldenPark | Built with Hugo & Mystery</p>
+            <p class="footer-colors">
+                <span style="color: var(--allegheny-blue);">●</span> 
+                <span style="color: var(--allegheny-gold);">●</span> 
+                <span style="color: var(--neon-cyan);">●</span> 
+                <span style="color: var(--neon-pink);">●</span> 
+                <span style="color: var(--neon-green);">●</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<style>
+.enigma-footer {
+    background: linear-gradient(135deg, var(--enigma-dark) 0%, var(--military-brown) 100%);
+    color: var(--vintage-paper);
+    padding: 3rem 1rem;
+    margin-top: 4rem;
+    border-top: 4px solid var(--allegheny-gold);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-section h3 {
+    color: var(--neon-cyan);
+    text-shadow: 0 0 10px var(--neon-cyan);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-tagline {
+    color: var(--allegheny-gold);
+    font-style: italic;
+    margin: 0.5rem 0;
+}
+
+.footer-detail {
+    color: var(--vintage-paper);
+    margin: 1rem 0;
+}
+
+.footer-morse-line {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-top: 1px solid var(--military-olive);
+    border-bottom: 1px solid var(--military-olive);
+}
+
+.morse-code {
+    color: var(--neon-green);
+    font-family: 'Courier New', monospace;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+}
+
+.footer-organizers {
+    margin: 2rem 0;
+    color: var(--vintage-paper);
+}
+
+.footer-organizers strong {
+    color: var(--allegheny-gold);
+}
+
+.footer-links {
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+
+.footer-links a {
+    color: var(--neon-cyan);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0 0.5rem;
+}
+
+.footer-links a:hover {
+    color: var(--neon-pink);
+    text-shadow: 0 0 10px var(--neon-pink);
+}
+
+.footer-quote {
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    color: var(--aged-paper);
+    font-family: 'Courier New', monospace;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--military-olive);
+    font-size: 0.9rem;
+    color: var(--aged-paper);
+}
+
+.footer-colors {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+}
+</style>
+</body>
+
+</html>

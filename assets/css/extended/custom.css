@@ -1,0 +1,861 @@
+/* ========================================
+   Code-A-Thon: AldenPark Custom Styles
+   WWII Bletchley Park + Neon Aesthetic
+   ======================================== */
+
+:root {
+    /* ========================================
+       1940s Military/Vintage Colors
+       These create the base vintage/sepia aesthetic
+       ======================================== */
+    --military-olive: #4a5240;      /* Dark olive green - used in gradients */
+    --military-brown: #5c4a3a;      /* Military brown - primary gradient color */
+    --vintage-paper: #f4e8d0;       Light aged paper - text on dark backgrounds
+
+    --aged-paper: #e8dcc4;          /* Slightly darker paper - body background */
+    --dark-ink: #2b2520;            /* Very dark brown - dark text */
+    --sepia-tone: #704214;          /* Sepia/orange-brown - gradient starting point */
+    /* Commented alternative: --sepia-tone: #000000; */  /* Pure black alternative */
+    
+    /* ========================================
+       Allegheny College Brand Colors
+       Institution-specific branding
+       ======================================== */
+    --allegheny-blue: #003d7a;      /* Deep blue - accents and borders */
+    --allegheny-gold: #fdb515;      /* Bright gold - borders, highlights, dividers */
+
+    /* ========================================
+       Neon Accent Colors
+       High-visibility colors for neon glow effects
+       Modify these to change the neon aesthetic entirely
+       ======================================== */
+    --neon-cyan: #00ffff;           /* Bright cyan - primary glowing color for titles */
+    --neon-pink: #ff00ff;           /* Hot pink/magenta - hover effects, accents */
+    --neon-green: #39ff14;          /* Bright lime green - code blocks, success states */
+    --neon-orange: #ff6600;         /* Bright orange - alerts, secondary accents */
+    --neon-yellow: #ffff00;         /* Bright yellow - not heavily used but available */
+    
+    /* ========================================
+       Dark Theme Adjustments
+       Used for dark containers and panels
+       ======================================== */
+    --enigma-dark: #1a1512;         /* Very dark brown - deepest background color */
+    --enigma-panel: #2d2520;        /* Dark panel color - secondary dark background */
+}
+
+/* ========================================
+   Global Theme Overrides
+   ======================================== */
+
+body {
+    background-color: var(--aged-paper);
+    font-family: 'Courier New', 'Courier', monospace;
+    background-image: 
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 2px,
+            rgba(0, 0, 0, 0.03) 2px,
+            rgba(0, 0, 0, 0.03) 4px
+        );
+    background-attachment: fixed;
+}
+
+/* ========================================
+   Enigma Header (Custom Banner)
+   ======================================== */
+
+.enigma-header {
+    background: linear-gradient(135deg, var(--enigma-dark) 0%, var(--military-brown) 100%);
+    border-bottom: 4px solid var(--allegheny-gold);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.enigma-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 255, 255, 0.05) 2px,
+        rgba(0, 255, 255, 0.05) 4px
+    );
+    pointer-events: none;
+    animation: scanlines 20s linear infinite;
+}
+
+.header-classified {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+
+.classified-text {
+    display: inline-block;
+    color: var(--neon-cyan);
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 
+        0 0 10px var(--neon-cyan),
+        0 0 20px var(--neon-cyan);
+    animation: neonPulse 2s ease-in-out infinite alternate;
+}
+
+.header-logo {
+    position: relative;
+    z-index: 1;
+    margin: 1rem 0;
+}
+
+.header-logo h1 {
+    color: var(--neon-cyan);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 
+        0 0 20px var(--neon-cyan),
+        0 0 40px var(--neon-cyan),
+        2px 2px 8px rgba(0, 0, 0, 0.8);
+    animation: neonPulse 2s ease-in-out infinite alternate;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    color: var(--allegheny-gold);
+    font-size: 1.1rem;
+    margin: 0.5rem 0 0 0;
+    font-style: italic;
+    text-shadow: 0 0 5px var(--neon-orange);
+}
+
+.header-morse {
+    position: relative;
+    z-index: 1;
+    margin-top: 1rem;
+}
+
+.header-morse span {
+    display: block;
+    color: var(--military-olive);
+    font-size: 1.2rem;
+    letter-spacing: 8px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+.main {
+    /* background-color: var(--military-brown); */
+    background-color: var(--aged-paper);
+    border: 3px solid var(--military-brown);
+    box-shadow: 
+        0 0 30px rgba(0, 0, 0, 0.3),
+        inset 0 0 60px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+}
+
+/* ========================================
+   Header & Navigation
+   ======================================== */
+
+.nav {
+    background: linear-gradient(135deg, var(--military-olive) 0%, var(--military-brown) 100%);
+    border-bottom: 3px solid var(--allegheny-gold);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.nav a {
+    color: var(--vintage-paper) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+
+.nav a:hover {
+    color: var(--neon-cyan) !important;
+    text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.logo {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--allegheny-gold) !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* ========================================
+   Page Header (for codes list page)
+   Styling for the "Codes" tab header section
+   ======================================== */
+
+.page-header {
+    /* Main background: gradient from sepia-tone to military-brown */
+    background: linear-gradient(135deg, var(--sepia-tone) 0%, var(--military-brown) 100%);
+    /* Border: Double 4px gold line for vintage feel */
+    border: 4px double var(--allegheny-gold);
+    /* Rounded corners */
+    border-radius: 10px;
+    /* Internal spacing */
+    padding: 3rem;
+    /* Vertical spacing from other elements */
+    margin: 2rem 0;
+    /* Box shadow: Outer shadow + inset shadow for depth */
+    box-shadow: 
+        0 0 30px rgba(255, 165, 0, 0.3),      /* Orange glow (outer) */
+        inset 0 0 40px rgba(0, 0, 0, 0.4);    /* Dark shadow (inset) */
+    position: relative;
+    /* Hides scanlines animation overflow */
+    overflow: hidden;
+}
+
+/* Scanlines animation overlay - creates CRT monitor effect */
+.page-header::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    /* Repeating diagonal lines with cyan tint - adjust opacity to make more/less visible */
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(0, 255, 255, 0.03) 10px,           /* Cyan scanlines - change 0.03 for visibility */
+        rgba(0, 255, 255, 0.03) 20px
+    );
+    animation: scanlines 20s linear infinite;
+    pointer-events: none;
+}
+
+/* Page header title - main heading */
+.page-header h1 {
+    /* Neon cyan glow effect */
+    color: var(--neon-cyan);
+    /* Multi-layer text-shadow for intense glow */
+    text-shadow: 
+        0 0 20px var(--neon-cyan),              /* Inner glow */
+        0 0 40px var(--neon-cyan),              /* Mid glow */
+        2px 2px 4px rgba(0, 0, 0, 0.8);        /* Shadow for depth */
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    /* Pulsing animation for dynamic effect */
+    animation: neonPulse 2s ease-in-out infinite alternate;
+    position: relative;
+    /* Keeps title above scanlines effect */
+    z-index: 1;
+}
+
+/* Page header subtitle/description */
+.page-header .post-description {
+    /* Light vintage paper color for contrast on dark background */
+    color: var(--vintage-paper);
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* ========================================
+   Home Info / Hero Section
+   Main landing page hero with neon effects
+   ======================================== */
+
+.home-info {
+    /* Gradient: from sepia tone to military brown for vintage feel */
+    background: linear-gradient(135deg, var(--sepia-tone) 0%, var(--military-brown) 100%);
+    /* color: var(--vintage-paper); */
+    color: var(--vintage-paper);
+    /* Double border with gold - creates vintage frame effect */
+    border: 4px double var(--allegheny-gold);
+    border-radius: 10px;
+    padding: 3rem;
+    margin: 2rem 0;
+    /* Dual shadow: glow + inset shadow for depth */
+    box-shadow: 
+        0 0 30px rgba(255, 165, 0, 0.3),      /* Orange glow (outer) */
+        inset 0 0 40px rgba(0, 0, 0, 0.4);    /* Dark shadow (inset) */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Scanlines overlay - CRT monitor effect on hero section */
+.home-info::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    /* Diagonal scanlines with cyan tint - adjust 0.03 for visibility */
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(0, 255, 255, 0.03) 10px,         /* Cyan scanlines opacity */
+        rgba(0, 255, 255, 0.03) 20px
+    );
+    animation: scanlines 20s linear infinite;
+    pointer-events: none;
+}
+
+/* Scanlines animation - scrolls the CRT effect */
+@keyframes scanlines {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(50px); }
+}
+
+/* Hero section main title */
+.home-info h1 {
+    /* Bright neon cyan for visibility */
+    color: var(--neon-cyan);
+    /* Multi-layer glow for intense neon effect */
+    text-shadow: 
+        0 0 20px var(--neon-cyan),             /* Primary glow */
+        0 0 40px var(--neon-cyan),             /* Secondary glow */
+        2px 2px 4px rgba(0, 0, 0, 0.8);       /* Shadow for depth */
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    /* Pulsing animation for dynamic effect */
+    animation: neonPulse 2s ease-in-out infinite alternate;
+}
+
+/* Pulsing animation - creates breathing/pulse effect on titles */
+@keyframes neonPulse {
+    from {
+        text-shadow: 
+            0 0 20px var(--neon-cyan),
+            0 0 40px var(--neon-cyan),
+            2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+    to {
+        text-shadow: 
+            0 0 30px var(--neon-cyan),
+            0 0 60px var(--neon-cyan),
+            0 0 80px var(--neon-cyan),         /* Stronger outer glow when pulsed */
+            2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+}
+
+/* Strong text in hero - gold with orange glow */
+.home-info p strong {
+    color: var(--allegheny-gold);
+    text-shadow: 0 0 5px var(--neon-orange);
+}
+
+/* ========================================
+   Post Entries / Content Cards
+   Styling for post preview cards in lists
+   ======================================== */
+
+/* Individual post card styling */
+.post-entry {
+    /* Light background for cards - change to change card appearance */
+    background-color: var(--vintage-paper);
+    /* Border color - adjust this to change card border color */
+    border: 2px solid var(--military-brown);
+    /* Left accent border - highlights the card */
+    border-left: 5px solid var(--allegheny-blue);
+    /* Shadow for depth and separation */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+/* Post card hover effect - interactive feedback */
+.post-entry:hover {
+    /* Border accent changes to neon pink on hover */
+    border-left-color: var(--neon-pink);
+    /* Glow effect on hover */
+    box-shadow: 
+        0 0 20px rgba(255, 0, 255, 0.4),      /* Pink glow */
+        5px 5px 20px rgba(0, 0, 0, 0.4);      /* Shadow intensifies */
+    /* Slight movement for interactivity */
+    transform: translateX(5px);
+}
+
+/* Heading inside post entry cards */
+.entry-header h2 {
+    /* Dark text for contrast on light background */
+    color: var(--dark-ink);
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+/* Text content inside post entry cards */
+.entry-content {
+    /* Sepia tone color for vintage feel */
+    color: var(--sepia-tone);
+    line-height: 1.8;
+}
+
+/* Posts Page Container */
+.posts-container {
+    background: linear-gradient(135deg, var(--sepia-tone) 0%, var(--military-brown) 100%);
+    border: 4px double var(--allegheny-gold);
+    border-radius: 10px;
+    padding: 3rem;
+    margin: 2rem 0;
+    box-shadow: 
+        0 0 30px rgba(255, 165, 0, 0.3),
+        inset 0 0 40px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.posts-container::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(0, 255, 255, 0.03) 10px,
+        rgba(0, 255, 255, 0.03) 20px
+    );
+    animation: scanlines 20s linear infinite;
+    pointer-events: none;
+}
+
+/* ========================================
+   Post Content / Article Pages
+   Styling for individual posts and articles
+   ======================================== */
+
+/* Main container for single post/article pages */
+.post-single {
+    /* Gradient background: from sepia tone to military brown */
+    background: linear-gradient(135deg, var(--sepia-tone) 0%, var(--military-brown) 100%);
+    /* Double border with gold color for vintage effect */
+    border: 4px double var(--allegheny-gold);
+    border-radius: 10px;
+    padding: 3rem;
+    margin: 2rem 0;
+    /* Box shadow creates 3D depth effect */
+    box-shadow: 
+        0 0 30px rgba(255, 165, 0, 0.3),      /* Orange glow around border */
+        inset 0 0 40px rgba(0, 0, 0, 0.4);    /* Dark shadow inside */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Scanlines effect - CRT monitor simulation */
+.post-single::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    /* Diagonal striping pattern with cyan overlay */
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(0, 255, 255, 0.03) 10px,        /* Adjust middle number (0.03) to change scanline visibility */
+        rgba(0, 255, 255, 0.03) 20px
+    );
+    animation: scanlines 20s linear infinite;
+    pointer-events: none;
+}
+
+/* Header area with breadcrumbs and metadata */
+.post-header {
+    position: relative;
+    z-index: 1;
+}
+
+/* Post title - main heading with neon glow */
+.post-title {
+    /* Bright cyan color for visibility on dark background */
+    color: var(--neon-cyan);
+    /* Multi-layer glow effect for neon appearance */
+    text-shadow: 
+        0 0 20px var(--neon-cyan),             /* Primary glow */
+        0 0 40px var(--neon-cyan),             /* Secondary glow */
+        2px 2px 4px rgba(0, 0, 0, 0.8);       /* Shadow for depth */
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    /* Pulsing animation - breathes in and out */
+    animation: neonPulse 2s ease-in-out infinite alternate;
+}
+
+/* Post subtitle/description text */
+.post-description {
+    /* Light paper color for high contrast */
+    color: var(--vintage-paper); Note: typeface is too light for posts with background 
+    /* color: var(--military-brown); */
+    font-size: 1.2rem;
+}
+
+/* Main post content body text */
+.post-content {
+    /* Light vintage paper color for readability on dark background */
+    color: var(--vintage-paper);
+    line-height: 1.9;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Heading styles within post content - H1, H2, H3 */
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+    /* Neon cyan color for headings */
+    color: var(--neon-cyan);
+    /* Gold underline separator */
+    border-bottom: 3px solid var(--allegheny-gold);
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    font-family: 'Courier New', monospace;
+    /* Subtle glow on headings */
+    text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+/* H1 styling - strongest glow effect */
+.post-content h1 {
+    font-size: 2.5rem;
+    /* Enhanced glow for main headings */
+    text-shadow: 
+        0 0 20px var(--neon-cyan),
+        0 0 40px var(--neon-cyan),
+        2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Bold text styling - gold color with orange glow */
+.post-content strong {
+    color: var(--allegheny-gold);
+    text-shadow: 0 0 5px var(--neon-orange);
+}
+
+/* Inline code styling */
+.post-content code {
+    /* Semi-transparent dark background */
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    /* Green border for code indicator */
+    border: 1px solid var(--neon-green);
+    box-shadow: 0 0 5px rgba(57, 255, 20, 0.3);
+    color: var(--neon-green);
+}
+
+/* Code block (pre) styling */
+.post-content pre {
+    /* Dark background for code blocks - change rgba values for transparency */
+    background: rgba(0, 0, 0, 0.6);
+    /* Green border indicates code */
+    border: 2px solid var(--neon-green);
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow-x: auto;
+    /* Glow effect around code block */
+    box-shadow: 
+        0 0 20px rgba(57, 255, 20, 0.2),      /* Green glow (outer) */
+        inset 0 0 20px rgba(0, 0, 0, 0.5);    /* Dark shadow (inner) */
+}
+
+/* Code text inside code blocks */
+.post-content pre code {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: var(--neon-green);
+}
+
+/* Link styling in post content */
+.post-content a {
+    color: var(--neon-cyan);
+    text-decoration: underline;
+}
+
+/* Link hover effect - pink glow */
+.post-content a:hover {
+    color: var(--neon-pink);
+    text-shadow: 0 0 10px var(--neon-pink);
+}
+
+/* Post metadata (date, word count, author) */
+.post-meta {
+    /* Light vintage paper for contrast */
+    color: var(--vintage-paper);
+    font-style: italic;
+    margin: 1rem 0;
+    /* Subtle cyan glow */
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
+}
+
+/* Links in metadata */
+.post-meta a {
+    color: var(--neon-cyan);
+}
+
+.post-meta a:hover {
+    text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+/* Post footer - below main content */
+.post-footer {
+    color: var(--vintage-paper);
+    /* Gold separator line */
+    border-top: 2px solid var(--allegheny-gold);
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+/* Post tags/labels styling */
+.post-tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/* Individual tag styling */
+.post-tags li a {
+    display: inline-block;
+    /* Light cyan background for tags */
+    background: rgba(0, 255, 255, 0.1);
+    /* Cyan border outline */
+    border: 1px solid var(--neon-cyan);
+    color: var(--neon-cyan);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Tag hover effect - filled background */
+.post-tags li a:hover {
+    background: var(--neon-cyan);
+    /* Invert text color on hover */
+    color: var(--enigma-dark);
+    text-shadow: none;
+    /* Glow effect on tag */
+    box-shadow: 0 0 15px var(--neon-cyan);
+}
+
+/* ========================================
+   Special Elements
+   Decorative and functional elements used throughout
+   ======================================== */
+
+/* Classified Stamp Effect - red stamp styling */
+.classified-stamp {
+    display: inline-block;
+    /* Red border - change rgba values to adjust opacity and intensity */
+    border: 3px solid rgba(255, 0, 0, 0.6);
+    /* Red text color */
+    color: rgba(255, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Tilted rotation for authenticity */
+    transform: rotate(-5deg);
+    font-size: 1.5rem;
+    /* Wide letter spacing for old document effect */
+    letter-spacing: 3px;
+    margin: 1rem;
+}
+
+/* Enigma Machine Button Style */
+.enigma-button,
+.button {
+    /* Gradient background: military olive to brown */
+    background: linear-gradient(135deg, var(--military-olive) 0%, var(--military-brown) 100%);
+    /* Light text on dark background */
+    color: var(--vintage-paper);
+    /* Gold border for vintage button look */
+    border: 2px solid var(--allegheny-gold);
+    padding: 1rem 2rem;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Button hover state - glowing cyan effect */
+.enigma-button:hover,
+.button:hover {
+    /* Background changes to blue-to-cyan gradient */
+    background: linear-gradient(135deg, var(--allegheny-blue) 0%, var(--neon-cyan) 100%);
+    /* Cyan glow on hover */
+    box-shadow: 
+        0 0 20px var(--neon-cyan),
+        0 4px 15px rgba(0, 0, 0, 0.5);
+    /* Lift effect on hover */
+    transform: translateY(-2px);
+    /* Text color inverts to dark on light background */
+    color: var(--enigma-dark);
+}
+
+/* Telegraph/Morse Code Effect - decorative divider */
+.morse-divider {
+    text-align: center;
+    font-size: 2rem;
+    /* Wide spacing between morse characters */
+    letter-spacing: 10px;
+    /* Military olive color - subtle */
+    color: var(--military-olive);
+    margin: 2rem 0;
+    /* Reduced opacity for subtle effect */
+    opacity: 0.5;
+}
+
+/* Typewriter Effect Container - quote styling */
+.typewriter {
+    font-family: 'Courier New', monospace;
+    /* Blue left border accent */
+    border-left: 4px solid var(--allegheny-blue);
+    padding-left: 1rem;
+    /* Very light blue background */
+    background-color: rgba(0, 61, 122, 0.05);
+    margin: 1.5rem 0;
+    padding: 1rem;
+}
+
+/* Alert Boxes - warning/info boxes */
+.alert-box {
+    /* Orange border for alerts */
+    border: 3px solid var(--neon-orange);
+    /* Dark background */
+    background: var(--enigma-dark);
+    /* Orange text for visibility */
+    color: var(--neon-orange);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    /* Orange glow effect */
+    box-shadow: 
+        0 0 20px rgba(255, 102, 0, 0.3),      /* Orange glow (outer) */
+        inset 0 0 10px rgba(0, 0, 0, 0.5);    /* Shadow (inset) */
+    font-weight: bold;
+}
+
+/* ========================================
+   Table of Contents
+   TOC styling for post sidebars
+   ======================================== */
+
+/* Table of contents container */
+.toc {
+    /* Dark panel background */
+    background: var(--enigma-panel);
+    /* Gold border to match theme */
+    border: 2px solid var(--allegheny-gold);
+    /* Light text for contrast */
+    color: var(--vintage-paper);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.toc a {
+    color: var(--neon-cyan);
+}
+
+.toc a:hover {
+    color: var(--neon-pink);
+    text-shadow: 0 0 5px var(--neon-pink);
+}
+
+/* ========================================
+   Footer
+   ======================================== */
+
+footer {
+    background: linear-gradient(135deg, var(--enigma-dark) 0%, var(--military-brown) 100%);
+    color: var(--vintage-paper);
+    border-top: 3px solid var(--allegheny-gold);
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+footer a {
+    color: var(--neon-cyan);
+}
+
+footer a:hover {
+    color: var(--neon-pink);
+    text-shadow: 0 0 10px var(--neon-pink);
+}
+
+/* ========================================
+   Responsive Adjustments
+   ======================================== */
+
+@media (max-width: 768px) {
+    .home-info h1 {
+        font-size: 2rem;
+    }
+    
+    .post-title {
+        font-size: 1.8rem;
+    }
+    
+    .main {
+        padding: 1rem;
+    }
+    
+    .post-single {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+    
+    .post-content h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* ========================================
+   Search Page Customization
+   ======================================== */
+
+#searchResults li {
+    background-color: var(--vintage-paper);
+    border-left: 4px solid var(--allegheny-blue);
+    margin: 1rem 0;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+#searchResults li:hover {
+    border-left-color: var(--neon-cyan);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+/* ========================================
+   Print Styles (for documentation)
+   ======================================== */
+
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .nav, footer {
+        display: none;
+    }
+}

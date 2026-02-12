@@ -1,0 +1,119 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Code-A-Thon: AldenPark'
+theme = 'PaperMod'
+
+[params]
+description = "A WWII Bletchley Park-inspired code-breaking hackathon at Allegheny College"
+author = "DataGators & ACM Club"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = true
+
+[params.homeInfoParams]
+Title = "⚡ Code-A-Thon: AldenPark ⚡"
+Content = """
+**Operation Codebreaker** - A WWII-inspired hackathon where student teams crack encrypted messages using computational methods.
+
+📅 **Date:** TBA (Saturday Afternoon)  
+⏱️ **Duration:** 6 Hours  
+👥 **Team Size:** Up to 4 members  
+🎁 **Prizes:** T-shirts & Awards  
+📍 **Location:** Allegheny College
+
+Break codes. Build software. Make history.
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/"
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "🏠 Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "📖 About"
+url = "/about/"
+weight = 20
+
+[[menu.main]]
+identifier = "codes"
+name = "🔐 The Codes"
+url = "/codes/"
+weight = 30
+
+[[menu.main]]
+identifier = "morse"
+name = "📡 Morse Code"
+url = "/codes/morse/"
+weight = 35
+
+[[menu.main]]
+identifier = "breaking"
+name = "🔨 Breaking Codes"
+url = "/breaking/"
+weight = 40
+
+[[menu.main]]
+identifier = "rules"
+name = "📋 Rules & FAQ"
+url = "/rules/"
+weight = 50
+
+[[menu.main]]
+identifier = "tips"
+name = "💡 Tips"
+url = "/tips/"
+weight = 55
+
+[[menu.main]]
+identifier = "contact"
+name = "📞 Contact"
+url = "/contact/"
+weight = 60
+
+[[menu.main]]
+identifier = "resources"
+name = "📚 Resources"
+url = "/resources/"
+weight = 65
+
+[[menu.main]]
+identifier = "posts"
+name = "📢 News"
+url = "/posts/"
+weight = 70
+
+[[menu.main]]
+identifier = "search"
+name = "🔍 Search"
+url = "/search/"
+weight = 70
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true

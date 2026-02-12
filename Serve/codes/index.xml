@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Codes on Code-A-Thon: AldenPark</title>
+    <link>https://example.org/codes/</link>
+    <description>Recent content in The Codes on Code-A-Thon: AldenPark</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/codes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caesar Cipher</title>
+      <link>https://example.org/codes/caesar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/caesar/</guid>
+      <description>The ancient Roman shift cipher</description>
+    </item>
+    <item>
+      <title>Vigenère Cipher</title>
+      <link>https://example.org/codes/vigenere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/vigenere/</guid>
+      <description>The polyalphabetic &amp;#39;unbreakable&amp;#39; cipher</description>
+    </item>
+    <item>
+      <title>Substitution Cipher</title>
+      <link>https://example.org/codes/substitution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/substitution/</guid>
+      <description>Random letter mapping and pattern analysis</description>
+    </item>
+    <item>
+      <title>Mystery Cipher</title>
+      <link>https://example.org/codes/mystery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/mystery/</guid>
+      <description>Details classified until event day</description>
+    </item>
+    <item>
+      <title>Morse Code</title>
+      <link>https://example.org/codes/morse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/codes/morse/</guid>
+      <description>The telegraph communication system</description>
+    </item>
+  </channel>
+</rss>

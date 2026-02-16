@@ -48,69 +48,80 @@ favicon32x32 = "/favicon-32x32.png"
 [menu]
 [[menu.main]]
 identifier = "home"
-name = "🏠 Home"
+name = "🏠"
+title = "Home"
 url = "/"
 weight = 10
 
 [[menu.main]]
 identifier = "about"
-name = "📖 About"
+name = "📖"
+title = "About"
 url = "/about/"
 weight = 20
 
 [[menu.main]]
 identifier = "codes"
-name = "🔐 The Codes"
+name = "🔐"
+title = "The Codes"
 url = "/codes/"
 weight = 30
 
 [[menu.main]]
-identifier = "morse"
-name = "📡 Morse Code"
-url = "/codes/morse/"
-weight = 35
-
-[[menu.main]]
 identifier = "breaking"
-name = "🔨 Breaking Codes"
+name = "🔨"
+title = "Breaking Codes"
 url = "/breaking/"
 weight = 40
 
 [[menu.main]]
 identifier = "rules"
-name = "📋 Rules & FAQ"
+name = "📋"
+title = "Rules & FAQ"
 url = "/rules/"
 weight = 50
 
 [[menu.main]]
 identifier = "tips"
-name = "💡 Tips"
+name = "💡"
+title = "Tips"
 url = "/tips/"
 weight = 55
 
 [[menu.main]]
+identifier = "live"
+name = "💻"
+title = "Live Notebooks"
+url = "/live/"
+weight = 58
+
+[[menu.main]]
 identifier = "contact"
-name = "📞 Contact"
+name = "📞"
+title = "Contact"
 url = "/contact/"
 weight = 60
 
 [[menu.main]]
 identifier = "resources"
-name = "📚 Resources"
+name = "📚"
+title = "Resources"
 url = "/resources/"
 weight = 65
 
 [[menu.main]]
 identifier = "posts"
-name = "📢 News"
+name = "📢"
+title = "News"
 url = "/posts/"
 weight = 70
 
 [[menu.main]]
 identifier = "search"
-name = "🔍 Search"
+name = "🔍"
+title = "Search"
 url = "/search/"
-weight = 70
+weight = 75
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]

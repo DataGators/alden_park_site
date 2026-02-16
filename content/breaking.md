@@ -733,7 +733,7 @@ If you are looking for more to do in this area, we invite you to check out the b
 - **Cryptopals** - Advanced cryptography challenges
   - [https://cryptopals.com/](https://cryptopals.com/)
 - **dcode.fr** - Cipher identification and breaking tools
-  - [https://www.dcode.fr/](https://www.dcode.fr/)
+  - [https://www.dcode.fr/en](https://www.dcode.fr/en)
 
 <div class="typewriter">
 "The codebreaker's greatest tools are not computers or algorithms, but curiosity, persistence, and the willingness to try again."

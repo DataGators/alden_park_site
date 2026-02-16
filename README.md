@@ -1,5 +1,7 @@
 # Code-A-Thon: AldenPark
 
+Welcome!
+
 A WWII Bletchley Park-inspired code-breaking hackathon website for Allegheny College.
 
 ## 🎯 About

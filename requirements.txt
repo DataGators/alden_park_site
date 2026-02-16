@@ -1,2 +1,10 @@
-jupyterlite-core>=0.4.0
-jupyterlite-pyodide-kernel>=0.4.0
+# Core JupyterLite components with compatible versions
+jupyterlite-core==0.6.4
+jupyterlite-pyodide-kernel==0.6.4
+
+# Required for custom content support
+jupyter-server
+
+# Optional dependencies for better performance
+libarchive-c
+jupyterlab-server

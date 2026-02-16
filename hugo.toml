@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Code-A-Thon: AldenPark'
-theme = 'PaperMod'
+theme = 'PaperMod_nogit'
 
 [params]
 description = "A WWII Bletchley Park-inspired code-breaking hackathon at Allegheny College"

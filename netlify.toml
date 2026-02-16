@@ -9,7 +9,7 @@
     # ref for below code: https://github.com/r-wasm/jupyterlite-webr-kernel
     git clone https://github.com/r-wasm/jupyterlite-webr-kernel
     cd jupyterlite-webr-kernel
-    pip install .
+    pip install --no-deps .
     cd ..
     
     # Build the JupyterLite environment with contents from files directory

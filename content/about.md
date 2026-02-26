@@ -5,6 +5,8 @@ description: "Learn about the event, its inspiration, and what to expect"
 
 ## 📖 The Story Behind AldenPark
 
+<div class="classified-stamp">Code Name: Alden Park</div>
+
 <div class="typewriter">
 "In 1939, as war clouds gathered over Europe, a secret facility at Bletchley Park became home to Britain's greatest minds. Their mission: break the unbreakable Enigma code. Against all odds, they succeeded—shortening the war by years and saving countless lives."
 </div>
@@ -15,7 +17,7 @@ description: "Learn about the event, its inspiration, and what to expect"
 
 ## 🎯 What is Code-A-Thon?
 
-Code-A-Thon: AldenPark is a **6-hour hackathon** where student teams race against time to decrypt multiple encrypted messages. Unlike traditional hackathons focused on building apps or websites, this event focuses on:
+Code-A-Thon: AldenPark is a **4-hour hackathon** where student teams race against time to decrypt multiple encrypted messages. Unlike traditional hackathons focused on building apps or websites, this event focuses on:
 
 - **Cryptanalysis** - Understanding and breaking encryption schemes
 - **Algorithm Design** - Creating efficient decryption methods
@@ -27,7 +29,7 @@ Code-A-Thon: AldenPark is a **6-hour hackathon** where student teams race agains
 ```
 Hour 1-2: Introduction, Team Formation, Code Distribution
 Hour 2-5: Active Codebreaking Period
-Hour 5-6: Final Submissions & Award Ceremony
+Hour 5-6: Final Submissions, Presentations & Award Ceremony
 ```
 
 <div class="morse-divider">-.. --. </div>
@@ -101,10 +103,13 @@ Code-A-Thon: AldenPark offers unique learning opportunities:
 This event is brought to you by two of Allegheny College's premier computer science organizations:
 
 ### DataGators 🐊
+
+![DataGators Logo](/images/datagators_logo_small.png)
+
 A student organization dedicated to data science, analytics, and computational problem-solving. The DataGators explore real-world applications of algorithms and data-driven thinking.
 
-### ACM Club 💻
-The Association for Computing Machinery student chapter at Allegheny College. ACM promotes computing as a science and profession, hosting technical talks, workshops, and competitions.
+<!-- ### ACM Club 💻
+The Association for Computing Machinery student chapter at Allegheny College. ACM promotes computing as a science and profession, hosting technical talks, workshops, and competitions. -->
 
 <div class="morse-divider">-.. --. </div>
 

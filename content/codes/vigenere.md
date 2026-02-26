@@ -6,7 +6,7 @@ weight: 2
 
 ## 🇫🇷 Vigenère Cipher: Le Chiffre Indéchiffrable
 
-<div class="classified-stamp">SECRET</div>
+<div class="classified-stamp">For Your Eyes Only</div>
 
 The **Vigenère Cipher** was long considered unbreakable—earning the nickname "le chiffre indéchiffrable" (the indecipherable cipher). It uses a keyword to apply multiple Caesar shifts, making simple frequency analysis ineffective.
 

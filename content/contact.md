@@ -3,6 +3,8 @@ title: "Contact"
 description: "Get in touch with the organizers"
 ---
 
+<div class="classified-stamp">Top Secret</div>
+
 ## 📞 Contact the Organizers
 
 <div class="typewriter">

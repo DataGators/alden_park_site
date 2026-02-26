@@ -5,6 +5,9 @@ description: "Helpful tools, references, and materials for aspiring codebreakers
 
 ## 📚 Codebreaker's Resource Library
 
+<div class="classified-stamp">Classified Document</div>
+
+
 <div class="typewriter">
 "Knowledge is the codebreaker's most powerful tool. Here are resources to sharpen your skills."
 </div>

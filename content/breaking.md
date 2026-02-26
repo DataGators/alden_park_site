@@ -573,27 +573,9 @@ def contains_english_words(text, threshold=0.5):
 
 ## 🎓 The Bletchley Park Approach
 
-### Team Organization
+The codebreakers at Bletchley Park succeeded through specialization, collaboration, persistence, and innovation — the same principles that will serve your team well in Code-A-Thon.
 
-At Bletchley Park, success came from:
-
-1. **Specialization** - Different teams for different cipher types
-2. **Collaboration** - Sharing insights and techniques
-3. **Persistence** - Trying many approaches systematically
-4. **Innovation** - Creating new methods when old ones failed
-
-### Apply to Code-A-Thon
-
-**Suggested team roles:**
-
-- **Analyst** - Performs frequency and statistical analysis
-- **Coder** - Implements breaking algorithms quickly
-- **Researcher** - Consults references and documentation
-- **Tester** - Validates partial solutions and results
-
-<div class="typewriter">
-"No single person broke Enigma. It took thousands of people, each contributing their expertise. Your team is your greatest asset."
-</div>
+📖 Learn about their methods and how to apply them: [**The Bletchley Park Legacy**](/posts/bletchley/)
 
 <div class="morse-divider">-.. --. </div>
 

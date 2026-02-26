@@ -61,30 +61,9 @@ Each successfully broken code earns points for your team. Speed, accuracy, and m
 
 ## 🏛️ The Bletchley Park Legacy
 
-### Historical Context
+Code-A-Thon: AldenPark draws its inspiration from the remarkable work done at Bletchley Park during World War II — from the brilliant minds who worked there, to the Bombe machine they built, to the lasting impact their efforts had on modern computing and cryptography.
 
-Bletchley Park, located 50 miles north of London, was the central site for British codebreaking during World War II. The facility housed some of history's greatest minds:
-
-- **Alan Turing** - Mathematician who designed the Bombe machine
-- **Joan Clarke** - Cryptanalyst and Turing's colleague
-- **Gordon Welchman** - Developer of the diagonal board for the Bombe
-- **Dilly Knox** - Veteran codebreaker from World War I
-
-### The Bombe Machine
-
-The Bombe was an electromechanical device designed to decrypt Enigma messages. It could test thousands of settings per minute, systematically eliminating incorrect rotor configurations until the correct one was found.
-
-<div class="typewriter">
-"A single Bombe machine stood 7 feet tall, 7 feet wide, and weighed over one ton. At its peak, Bletchley Park operated 200+ Bombe machines simultaneously."
-</div>
-
-### Impact
-
-The work at Bletchley Park:
-- Shortened World War II by an estimated 2-4 years
-- Saved countless lives on all sides
-- Laid the foundation for modern computer science
-- Pioneered techniques still used in cryptography today
+📖 Read the full history: [**The Bletchley Park Legacy**](/posts/bletchley/)
 
 ## 🎓 Educational Value
 
@@ -108,8 +87,8 @@ This event is brought to you by two of Allegheny College's premier computer scie
 
 A student organization dedicated to data science, analytics, and computational problem-solving. The DataGators explore real-world applications of algorithms and data-driven thinking.
 
-<!-- ### ACM Club 💻
-The Association for Computing Machinery student chapter at Allegheny College. ACM promotes computing as a science and profession, hosting technical talks, workshops, and competitions. -->
+### ACM Club 💻
+The Association for Computing Machinery student chapter at Allegheny College. ACM promotes computing as a science and profession, hosting technical talks, workshops, and competitions.
 
 <div class="morse-divider">-.. --. </div>
 

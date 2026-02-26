@@ -91,7 +91,7 @@ weight = 55
 
 [[menu.main]]
 identifier = "live"
-name = "💻 Programming"
+name = "💻 Jupyter"
 title = "Live Notebooks"
 url = "/live/"
 weight = 58

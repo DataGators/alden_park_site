@@ -209,15 +209,16 @@ body {
     margin-inline-start: 0 !important;
 }
 
+/* increase size of text of menu items and add letter spacing for better readability and vintage feel */
 #menu a {
-    font-size: 0.82rem;
+    font-size: 1.rem;
     letter-spacing: 0.35px;
     padding: 0.1rem 0;
 }
 
 @media (max-width: 900px) {
     #menu a {
-        font-size: 0.74rem;
+        font-size: 0.82rem;
         letter-spacing: 0.2px;
     }
 }

@@ -10,7 +10,7 @@
        ======================================== */
     --military-olive: #4a5240;      /* Dark olive green - used in gradients */
     --military-brown: #5c4a3a;      /* Military brown - primary gradient color */
-    --vintage-paper: #f4e8d0;      /* Light aged paper - text on dark backgrounds */
+    --vintage-paper: #f4e8d0;       Light aged paper - text on dark backgrounds
 
     --aged-paper: #e8dcc4;          /* Slightly darker paper - body background */
     --dark-ink: #2b2520;            /* Very dark brown - dark text */
@@ -204,14 +204,8 @@ body {
 }
 
 .main {
-    /* CHANGED (2026-02-26): Was background-color: var(--aged-paper) — a light
-       beige (#e8dcc4) that made light-coloured text (--vintage-paper) nearly
-       unreadable on all list/content pages (codes/, breaking/, tips/, etc.).
-       Replaced with the same dark gradient used by .post-single, .home-info,
-       and .page-header so the entire site shares a consistent dark theme.
-       To revert to the bright background, restore:
-           background-color: var(--aged-paper); */
-    background: linear-gradient(135deg, var(--enigma-dark) 0%, var(--military-brown) 100%);
+    /* background-color: var(--military-brown); */
+    background-color: var(--aged-paper);
     border: 3px solid var(--military-brown);
     box-shadow: 
         0 0 30px rgba(0, 0, 0, 0.3),
@@ -574,14 +568,9 @@ body {
 
 /* Post subtitle/description text */
 .post-description {
-    /* CHANGED (2026-02-26): The original line had bare unquoted text after the
-       semicolon ("Note: typeface is too light...") which is invalid CSS.
-       Browsers silently ignore it, but Hugo's esbuild minifier (used on Netlify
-       via --minify) treats it as a parse error and drops the entire rule block,
-       causing the description to lose its colour on the deployed site.
-       Moved the note into a proper CSS comment and removed the dead
-       '/* color: var(--military-brown); *\/ alternative. */
-    color: var(--vintage-paper);
+    /* Light paper color for high contrast */
+    color: var(--vintage-paper); Note: typeface is too light for posts with background 
+    /* color: var(--military-brown); */
     font-size: 1.2rem;
 }
 
@@ -627,8 +616,7 @@ body {
 }
 
 /* Inline code styling */
-.post-content code,
-.entry-content code {
+.post-content code {
     /* Semi-transparent dark background */
     background: rgba(0, 0, 0, 0.4);
     padding: 0.2rem 0.5rem;
@@ -641,8 +629,7 @@ body {
 }
 
 /* Code block (pre) styling */
-.post-content pre,
-.entry-content pre {
+.post-content pre {
     /* Dark background for code blocks - change rgba values for transparency */
     background: rgba(0, 0, 0, 0.6);
     /* Green border indicates code */
@@ -657,14 +644,11 @@ body {
 }
 
 /* Code text inside code blocks */
-.post-content pre code,
-.entry-content pre code {
+.post-content pre code {
     background: transparent;
     border: none;
     box-shadow: none;
     color: var(--neon-green);
-    font-size: 0.9rem;
-    line-height: 1.5;
 }
 
 /* Link styling in post content */

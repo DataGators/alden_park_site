@@ -204,14 +204,8 @@ body {
 }
 
 .main {
-    /* CHANGED (2026-02-26): Was background-color: var(--aged-paper) — a light
-       beige (#e8dcc4) that made light-coloured text (--vintage-paper) nearly
-       unreadable on all list/content pages (codes/, breaking/, tips/, etc.).
-       Replaced with the same dark gradient used by .post-single, .home-info,
-       and .page-header so the entire site shares a consistent dark theme.
-       To revert to the bright background, restore:
-           background-color: var(--aged-paper); */
-    background: linear-gradient(135deg, var(--enigma-dark) 0%, var(--military-brown) 100%);
+    /* background-color: var(--military-brown); */
+    background-color: var(--aged-paper);
     border: 3px solid var(--military-brown);
     box-shadow: 
         0 0 30px rgba(0, 0, 0, 0.3),
@@ -574,14 +568,9 @@ body {
 
 /* Post subtitle/description text */
 .post-description {
-    /* CHANGED (2026-02-26): The original line had bare unquoted text after the
-       semicolon ("Note: typeface is too light...") which is invalid CSS.
-       Browsers silently ignore it, but Hugo's esbuild minifier (used on Netlify
-       via --minify) treats it as a parse error and drops the entire rule block,
-       causing the description to lose its colour on the deployed site.
-       Moved the note into a proper CSS comment and removed the dead
-       '/* color: var(--military-brown); *\/ alternative. */
-    color: var(--vintage-paper);
+    /* Light paper color for high contrast */
+    color: var(--vintage-paper); Note: typeface is too light for posts with background 
+    /* color: var(--military-brown); */
     font-size: 1.2rem;
 }
 

@@ -29,6 +29,7 @@ Click on each cipher to learn more about its history, mechanics, and weaknesses:
 The simplest shift cipher, where each letter is replaced by a letter a fixed number of positions down the alphabet. Named after Julius Caesar, who used it for military communications.
 
 **Quick Example:**
+
 ```
 Plain:  HELLO
 Shift:  3

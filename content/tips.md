@@ -11,7 +11,7 @@ description: "Strategies and advice for excelling at Code-A-Thon: AldenPark"
 "Success in codebreaking comes from preparation, strategy, and teamwork. Here's how to maximize your chances of victory."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Before the Event
 
@@ -131,7 +131,7 @@ COMMON_WORDS = {
 - 🧘 Stay calm and confident
 - 💪 Remind yourself: every code is breakable
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## ⚡ During the Event
 
@@ -263,7 +263,7 @@ Two scenarios:
 □ Celebrate!
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🤝 Team Dynamics
 
@@ -310,7 +310,7 @@ Switch roles if someone gets stuck
 3. **Try different method** - Don't fixate on one approach
 4. **Take 5-minute break** - Fresh eyes help
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎓 Common Mistakes to Avoid
 
@@ -341,7 +341,7 @@ Switch roles if someone gets stuck
 💡 REMEMBER: At Bletchley Park, no single person broke Enigma. It took thousands working together. Be humble, be helpful, be a team player.
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🏆 Advanced Tips
 
@@ -369,7 +369,7 @@ Switch roles if someone gets stuck
 4. **Use correlation** for key verification
 5. **Statistical confidence** beats guessing
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📊 Point Optimization
 
@@ -403,7 +403,7 @@ Scenario 3: You're struggling
 → Don't risk everything on Mystery
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🧘 Mental Game
 
@@ -427,7 +427,7 @@ Scenario 3: You're struggling
 - 🚶 Walk around every hour
 - 👁️ Rest eyes periodically (20-20-20 rule)
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Final Checklist
 
@@ -454,7 +454,7 @@ Scenario 3: You're struggling
 - [ ] Ready to collaborate
 - [ ] Excited to learn
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 💬 Words of Wisdom
 

@@ -14,7 +14,7 @@ weight: 4
 Details about the Mystery Cipher are CLASSIFIED until the event begins. Only then will the nature of this challenge be revealed.
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎭 What We Can Tell You
 
@@ -38,7 +38,7 @@ The Mystery Cipher could be:
 "At Bletchley Park, codebreakers faced new cipher variants regularly. Adaptability and analytical thinking were their greatest assets."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🧠 How to Prepare
 
@@ -71,7 +71,7 @@ Master the fundamental ciphers first:
    - Have code snippets ready to adapt
    - Understand string manipulation
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔍 Possible Cipher Types
 
@@ -129,7 +129,7 @@ Uses matrix multiplication for polygraphic substitution.
 💡 TIP: If you encounter the Mystery Cipher and don't recognize it, start with basic analysis: frequency, pattern, structure. These fundamentals work on almost any cipher.
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Strategy for the Unknown
 
@@ -163,7 +163,7 @@ Based on observations:
 "When facing an unknown cipher, the scientific method is your guide: observe, hypothesize, test, adapt. Repeat until breakthrough."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🛠️ Useful Tools & Techniques
 
@@ -240,7 +240,7 @@ def detect_transposition(ciphertext):
         print("  → Possibly substitution cipher")
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🏆 Scoring
 
@@ -252,7 +252,7 @@ The Mystery Cipher carries the highest point value because:
 
 However, you don't need to solve it to win! Points from other ciphers may be sufficient.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📚 Recommended Preparation
 
@@ -274,7 +274,7 @@ However, you don't need to solve it to win! Points from other ciphers may be suf
 "The Mystery Cipher is not meant to be impossible—it's meant to separate those who memorize techniques from those who truly understand cryptanalysis."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Final Words
 

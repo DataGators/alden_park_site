@@ -9,7 +9,7 @@ description: "Event rules, guidelines, and frequently asked questions"
 
 Welcome to Code-A-Thon: AldenPark! Please review these rules carefully before the event.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Event Format
 
@@ -34,7 +34,7 @@ Hour 5:30 - 6:00  Award ceremony & closing
 ⏰ IMPORTANT: All submissions must be completed by the 5-hour mark. Late submissions will not be accepted.
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 👥 Team Rules
 
@@ -57,7 +57,7 @@ Hour 5:30 - 6:00  Award ceremony & closing
 - No team changes after code distribution
 - Team members cannot switch between teams during the event
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔐 Challenge Rules
 
@@ -99,7 +99,7 @@ Participants must:
 - Not interfere with other teams' work
 - Respect the spirit of friendly competition
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🏆 Scoring System
 
@@ -135,7 +135,7 @@ For each cipher:
 - Showing clear progress and methodology helps
 - Document your attempts even if unsuccessful
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📤 Submission Requirements
 
@@ -172,7 +172,7 @@ SOURCE CODE:
 [Your code here]
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎁 Prizes & Awards
 
@@ -201,7 +201,7 @@ All participants receive:
 "At Bletchley Park, the reward wasn't glory—it was the satisfaction of a problem solved. Also, occasionally tea and biscuits."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## ❓ Frequently Asked Questions
 
@@ -272,7 +272,7 @@ A: Yes, you own your code. We encourage you to share it (after the event) as lea
 **Q: What if we disagree with our score?**  
 A: You can request a score review within 15 minutes of results posting.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🚫 Code of Conduct
 
@@ -299,7 +299,7 @@ Violation of rules or code of conduct may result in:
 
 Organizers have final say on all rulings.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📞 Need Help?
 
@@ -318,7 +318,7 @@ Organizers have final say on all rulings.
 📢 IMPORTANT: Event rules and details may be updated. Check this page before the event for the latest information.
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📜 Legal Stuff
 
@@ -339,7 +339,7 @@ Organizers have final say on all rulings.
 - Teams retain ownership of their code
 - Organizers may showcase exceptional solutions (with permission)
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎖️ Final Words
 

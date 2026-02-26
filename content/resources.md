@@ -9,7 +9,7 @@ description: "Helpful tools, references, and materials for aspiring codebreakers
 "Knowledge is the codebreaker's most powerful tool. Here are resources to sharpen your skills."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔧 Online Tools
 
@@ -31,7 +31,7 @@ While you'll need to implement your own solutions for the competition, these too
 ⚠️ REMINDER: During the competition, you must implement your own solutions. These tools are for learning and practice only!
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 💻 Programming Resources
 
@@ -91,7 +91,7 @@ Collections
 HashMap
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📖 Cryptography Learning
 
@@ -117,7 +117,7 @@ HashMap
 - Biography: *Alan Turing: The Enigma* by Andrew Hodges
 - Documentary: *Codebreaker* (2011)
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🧮 Mathematical Foundations
 
@@ -155,7 +155,7 @@ THE, AND, THA, ENT, ION, TIO, FOR, NDE, HAS, NCE
 - **Chi-Squared Test** - Match distributions
 - **Kasiski Examination** - Find Vigenère key length
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🗂️ Practice Problems
 
@@ -189,7 +189,7 @@ RGV YXLCZ WFHZC VLFM EBR PBHIV LKFZ RGV OBIQ TLX
 KTTWX ZQRLL VTGKT TWXZQ RLLVT GKTTW XZQRL LVTGK
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🛠️ Development Environment
 
@@ -226,7 +226,7 @@ git commit -m "message"
 git push
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📊 Cheat Sheets
 
@@ -253,7 +253,7 @@ git push
 **3-letter:** THE, AND, FOR, ARE, BUT, NOT, YOU, ALL  
 **4-letter:** THAT, WITH, HAVE, THIS, WILL, FROM, THEY
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Code-A-Thon Specific
 
@@ -274,7 +274,7 @@ Check out the code examples on each cipher page:
 - [Vigenère Cipher Code Examples](/codes/vigenere/#implementation-examples)
 - [Substitution Cipher Code Examples](/codes/substitution/#implementation-examples)
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🌟 Community & Forums
 
@@ -294,7 +294,7 @@ Check out the code examples on each cipher page:
 💡 TIP: The best way to learn is by doing. Practice breaking codes regularly in the weeks before the event!
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📝 Study Plan
 
@@ -319,7 +319,7 @@ Check out the code examples on each cipher page:
 - ✅ Review quick reference materials
 - ✅ Get good sleep!
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔗 External Resources Disclaimer
 

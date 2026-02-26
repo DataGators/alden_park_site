@@ -9,7 +9,7 @@ description: "Get in touch with the organizers"
 "At Bletchley Park, clear communication was essential to breaking codes. It's also essential to running a great event!"
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🐊 The DataGators
 
@@ -29,7 +29,7 @@ Interested in joining the DataGators? We welcome all students passionate about d
 **Meeting Times:** TBA  
 **Location:** Allegheny College Campus  
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 💻 ACM Club
 
@@ -50,7 +50,7 @@ All students interested in computer science are welcome to join ACM Club activit
 **Meeting Times:** TBA  
 **Location:** Allegheny College Campus  
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📧 Reach Out
 
@@ -88,7 +88,7 @@ Have questions about Code-A-Thon: AldenPark? Want to know more about the event?
 
 Contact us via email or catch us at club meetings!
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🏫 Allegheny College Computer Science
 
@@ -104,7 +104,7 @@ Allegheny's CS department offers:
 
 **Learn more:** [Allegheny College CS Department](https://www.allegheny.edu/academics/computer-science)
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🗣️ Social & Community
 
@@ -120,7 +120,7 @@ Allegheny's CS department offers:
 - **ACM Club Events:** Participate in CS community activities
 - **Future Events:** Watch for more competitions and hackathons
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🤝 Sponsorship & Support
 
@@ -143,7 +143,7 @@ Interested in helping organize or run the event?
 
 **Let us know** if you'd like to volunteer!
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🆘 Emergency Contacts
 
@@ -157,7 +157,7 @@ Interested in helping organize or run the event?
 
 Need accommodations for the event? Contact us in advance so we can ensure everyone can participate fully.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📍 Location Information
 
@@ -175,7 +175,7 @@ Meadville, PA 16335
 - Look for Code-A-Thon signs on event day
 - Parking information will be provided
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 💬 Feedback
 
@@ -189,7 +189,7 @@ Your feedback helps us improve:
 
 **Contact us** anytime with your thoughts!
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔐 Message from the Organizers
 

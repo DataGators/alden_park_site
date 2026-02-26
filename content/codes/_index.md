@@ -9,7 +9,7 @@ description: "Learn about the encryption methods you'll encounter"
 
 During the Code-A-Thon, you'll encounter several types of classical ciphers. Each presents unique challenges and requires different approaches to break. Study them carefully—knowledge is your first weapon.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📚 Cipher Categories
 
@@ -99,7 +99,7 @@ This cipher's nature will be revealed only at the event. It may combine elements
 
 ---
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Choosing Your Approach
 
@@ -121,7 +121,7 @@ Points are awarded based on:
 - **Method** - Did you document your approach?
 - **Bonus Challenges** - Additional points for exceptional solutions
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🚀 Ready to Learn More?
 

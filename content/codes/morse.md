@@ -10,7 +10,7 @@ weight: 5
 
 **Morse Code** is a character encoding scheme that represents text as sequences of two signal durations: dots (·) and dashes (−). Developed in the 1830s-1840s, it revolutionized long-distance communication and played a crucial role in both World Wars.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📜 Historical Background
 
@@ -53,7 +53,7 @@ German coastal defenses communicated Allied ship movements via Morse, which Alli
 - **Pearl Harbor** (1941) - "Air raid Pearl Harbor. This is no drill."
 - **Apollo 11** (1969) - Backup communication system
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔧 How It Works
 
@@ -120,7 +120,7 @@ O  −−−        (dash-dash-dash)
 Full: ···· · ·−·· ·−·· −−−
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 💻 Implementation Examples
 
@@ -417,7 +417,7 @@ public class MorseCode {
 }
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔓 Breaking & Decoding Techniques
 
@@ -596,7 +596,7 @@ def analyze_morse_frequency(morse_text):
 ⚠️ STRATEGY TIP: Morse without spaces is exponentially harder! Look for common words first (THE, AND, SOS) to find boundaries.
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Practice Challenges
 
@@ -636,7 +636,7 @@ Two very important words, one is 3 letters, one is 4 letters
 Try common letter patterns and word boundaries
 </details>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🚀 Advanced Topics
 
@@ -688,7 +688,7 @@ Morse code still used for:
 - **Assistive Technology** - For people with disabilities
 - **Military** - Covert operations
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📊 Comparison: Morse vs Ciphers
 
@@ -713,7 +713,7 @@ During WWII, messages were often:
 5. Decoded from Morse
 6. Decrypted (breaking cipher)
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎓 Learning Resources
 
@@ -732,7 +732,7 @@ During WWII, messages were often:
 - ARRL (American Radio Relay League) resources
 - Find local ham radio clubs
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📚 Further Reading
 

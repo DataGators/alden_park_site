@@ -10,7 +10,7 @@ weight: 2
 
 The **Vigenère Cipher** was long considered unbreakable—earning the nickname "le chiffre indéchiffrable" (the indecipherable cipher). It uses a keyword to apply multiple Caesar shifts, making simple frequency analysis ineffective.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📜 Historical Background
 
@@ -32,7 +32,7 @@ The Vigenère cipher was used by:
 "For three centuries, cryptographers believed the Vigenère cipher was unbreakable. They were wrong."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔧 How It Works
 
@@ -85,7 +85,7 @@ For plaintext letter $P$, key letter $K$:
 **Encryption:** $C = (P + K) \mod 26$  
 **Decryption:** $P = (C - K) \mod 26$
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 💻 Implementation Examples
 
@@ -212,7 +212,7 @@ public class VigenereCipher {
 }
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔓 Weaknesses & Breaking Techniques
 
@@ -313,7 +313,7 @@ def find_key_length(ciphertext, max_length=20):
 ⚠️ STRATEGY TIP: For Vigenère, finding the key length is 90% of the battle. Once you know the length, it's just multiple Caesar ciphers!
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Practice Challenges
 
@@ -344,7 +344,7 @@ RJQXS YVNZJ VYMJW XSQJX SMEHM EFZRJ NMGFP
 Use Kasiski or IC method to find key length first
 </details>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🚀 Advanced Topics
 
@@ -377,7 +377,7 @@ If the key is:
 
 Then the cipher is **information-theoretically secure** (unbreakable even with infinite computing power).
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📊 Comparison: Caesar vs. Vigenère
 
@@ -389,7 +389,7 @@ Then the cipher is **information-theoretically secure** (unbreakable even with i
 | Brute Force | Always works | Impractical for long keys |
 | Historical Period | Ancient | Renaissance to Modern |
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📚 Further Reading
 

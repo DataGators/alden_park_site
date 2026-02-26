@@ -10,7 +10,7 @@ weight: 1
 
 The **Caesar Cipher** is one of the oldest known encryption techniques, dating back to Julius Caesar (100-44 BC), who used it to protect military messages. It's a type of substitution cipher where each letter is shifted by a fixed number of positions in the alphabet.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📜 Historical Background
 
@@ -70,7 +70,7 @@ For a shift of `k`:
 
 Where `x` is the letter's position (A=0, B=1, ..., Z=25)
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 💻 Implementation Examples
 
@@ -145,7 +145,7 @@ public class CaesarCipher {
 }
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔓 Weaknesses & Breaking Techniques
 
@@ -206,7 +206,7 @@ def break_caesar_frequency(ciphertext):
 ⚠️ STRATEGY TIP: For short messages, brute force is fastest. For longer messages, frequency analysis is more reliable.
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Practice Challenges
 
@@ -239,7 +239,7 @@ ESP QTDPC TD Z QTDPC, LYO ESPCP ZCP YZ XCPNPDEPO DPNCPED
 Look for short common words like "THE" or "AND"
 </details>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🚀 Advanced Topics
 
@@ -266,7 +266,7 @@ The Caesar Cipher can be extended to:
 - Include numbers and symbols
 - Use different alphabets (Cyrillic, Greek, etc.)
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📚 Further Reading
 

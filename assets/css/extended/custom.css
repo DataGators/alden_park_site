@@ -688,9 +688,11 @@ body {
 .classified-stamp {
     display: inline-block;
     /* Red border - change rgba values to adjust opacity and intensity */
-    border: 3px solid rgba(255, 0, 0, 0.6);
+    border: 3px solid rgba(255, 0, 255, 0.955);
+    /* border: 3px solid rgba(255, 0, 0, 0.6); */
     /* Red text color */
-    color: rgba(255, 0, 0, 0.6);
+    /* color: rgba(255, 0, 0, 0.6); */
+    color: rgb(255, 0, 0);
     padding: 0.5rem 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -740,14 +742,17 @@ body {
 /* Telegraph/Morse Code Effect - decorative divider */
 .morse-divider {
     text-align: center;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 2.5rem;
     /* Wide spacing between morse characters */
     letter-spacing: 10px;
     /* Military olive color - subtle */
-    color: var(--military-olive);
+    /* color: var(--military-olive); */
+    color: var(--neon-green);
     margin: 2rem 0;
     /* Reduced opacity for subtle effect */
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    opacity: 1.0;
 }
 
 /* Typewriter Effect Container - quote styling */

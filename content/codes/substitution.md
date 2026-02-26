@@ -10,7 +10,7 @@ weight: 3
 
 The **Substitution Cipher** (or monoalphabetic substitution) replaces each letter with another letter according to a fixed substitution alphabet. Unlike Caesar's simple shift, the substitution can be random, creating $26!$ possible keys (roughly $4 \times 10^{26}$).
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📜 Historical Background
 
@@ -30,7 +30,7 @@ The **Substitution Cipher** (or monoalphabetic substitution) replaces each lette
 "In 1586, Thomas Phelippes broke Mary Stuart's cipher in just hours, sealing her fate on the executioner's block."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔧 How It Works
 
@@ -76,7 +76,7 @@ Plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Cipher: ZYXWVUTSRQPONMLKJIHGFEDCBA
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 💻 Implementation Examples
 
@@ -186,7 +186,7 @@ const decrypted = substitutionCipher(encrypted, key, true);
 console.log("Decrypted:", decrypted);
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔓 Weaknesses & Breaking Techniques
 
@@ -215,7 +215,7 @@ TH, HE, IN, ER, AN, RE, ED, ON, ES, ST, EN, AT, TO, NT, HA, ND, OU, EA, NG, AS
 
 THE, AND, THA, ENT, ION, TIO, FOR, NDE, HAS, NCE, EDT, TIS, OFT, STH, MEN
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔍 Breaking Method: Frequency Analysis
 
@@ -332,7 +332,7 @@ def apply_partial_key(ciphertext, mappings):
 ⚠️ STRATEGY TIP: Start with high-frequency letters and short words. Each correct mapping makes the next guess easier!
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 Practice Challenge
 
@@ -361,7 +361,7 @@ Single letters (B, S) are likely A or I
 If RGV = THE, look for other words with those letters
 </details>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🚀 Advanced Topics
 
@@ -393,7 +393,7 @@ ATTACK → 8675
 
 Used extensively in diplomatic communications (16th-18th centuries).
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📊 Breaking Difficulty Comparison
 
@@ -405,7 +405,7 @@ Used extensively in diplomatic communications (16th-18th centuries).
 | Break Method | Brute force | IC + Frequency | Frequency + Patterns |
 | Ciphertext Needed | 10+ letters | 100+ letters | 50+ letters |
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📚 Further Reading
 

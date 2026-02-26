@@ -11,7 +11,7 @@ description: "Learn about the event, its inspiration, and what to expect"
 
 **Code-A-Thon: AldenPark** pays homage to these pioneering codebreakers while bringing their challenge into the modern era. Named as a nod to both Bletchley Park and Allegheny College, this event challenges students to combine historical codebreaking techniques with contemporary computational power.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 What is Code-A-Thon?
 
@@ -30,7 +30,7 @@ Hour 2-5: Active Codebreaking Period
 Hour 5-6: Final Submissions & Award Ceremony
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔐 The Codes You'll Face
 
@@ -55,7 +55,7 @@ Each successfully broken code earns points for your team. Speed, accuracy, and m
 - **Teams of 1-4 members** - form your own or join others at the event
 - **All skill levels** - from beginners to experienced programmers
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🏛️ The Bletchley Park Legacy
 
@@ -94,7 +94,7 @@ Code-A-Thon: AldenPark offers unique learning opportunities:
 - **Frequency Analysis** - Learn statistical methods for cryptanalysis
 - **Pattern Recognition** - Hone your ability to spot structural weaknesses
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🤝 Organizers
 
@@ -106,7 +106,7 @@ A student organization dedicated to data science, analytics, and computational p
 ### ACM Club 💻
 The Association for Computing Machinery student chapter at Allegheny College. ACM promotes computing as a science and profession, hosting technical talks, workshops, and competitions.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📅 Event Details
 

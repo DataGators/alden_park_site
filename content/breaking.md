@@ -13,7 +13,7 @@ description: "Cryptanalysis techniques and strategies for code-breaking"
 "The difference between a puzzle and a cipher is that one is meant to be solved, the other is not. Your job is to solve them anyway."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎯 General Approach to Breaking Ciphers
 
@@ -39,7 +39,7 @@ When you encounter an encrypted message:
 □ Does frequency analysis reveal anything?
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📊 Fundamental Technique: Frequency Analysis
 
@@ -114,7 +114,7 @@ def visualize_frequency(frequencies):
 💡 INSIGHT: In substitution ciphers, if you see a doubled letter in ciphertext, it likely represents a commonly doubled letter in plaintext (LL, EE, SS, etc.)
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔢 Statistical Measures
 
@@ -196,7 +196,7 @@ ENGLISH_FREQ = {
 }
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎨 Pattern Recognition Techniques
 
@@ -259,7 +259,7 @@ def find_pattern_matches(cipher_word, dictionary):
 🎯 STRATEGY: Start with short, common words. Each correct mapping makes the next guess easier!
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🛠️ Attack Methods by Cipher Type
 
@@ -492,7 +492,7 @@ def decode_morse_audio(audio_file):
 🎯 TIP: For Morse, pattern recognition is key. Look for SOS (... --- ...) and common words to establish boundaries!
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🧪 Advanced Techniques
 
@@ -569,7 +569,7 @@ def contains_english_words(text, threshold=0.5):
     return (valid_count / len(words)) > threshold if words else False
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🎓 The Bletchley Park Approach
 
@@ -595,7 +595,7 @@ At Bletchley Park, success came from:
 "No single person broke Enigma. It took thousands of people, each contributing their expertise. Your team is your greatest asset."
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📦 Building Your Toolkit
 
@@ -684,7 +684,7 @@ def quick_analysis(ciphertext):
     # Show first few shifts...
 ```
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🏆 Competition Strategies
 
@@ -712,7 +712,7 @@ def quick_analysis(ciphertext):
 ⚠️ REMEMBER: Speed matters, but accuracy matters more. A correct slow solution beats a fast wrong answer!
 </div>
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 📚 Further Resources
 

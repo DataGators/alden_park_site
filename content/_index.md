@@ -11,7 +11,7 @@ In the darkest days of World War II, the brilliant minds at **Bletchley Park** c
 
 The **DataGators** and **ACM Club** at Allegheny College invite you to participate in an extraordinary coding challenge that combines historical codebreaking with modern computational thinking.
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## ⚡ Event Snapshot
 
@@ -25,7 +25,7 @@ The **DataGators** and **ACM Club** at Allegheny College invite you to participa
 | **Registration** | On-site desk with lanyards & stickers |
 | **Prizes** | Exclusive T-shirts & Awards |
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🔐 The Mission
 
@@ -51,7 +51,7 @@ The victorious codebreakers will receive:
 - Bragging rights for eternity
 - Additional surprise awards
 
-<div class="morse-divider">- ·· · · ·</div>
+<div class="morse-divider">-.. --. </div>
 
 ## 🚀 Ready to Begin?
 

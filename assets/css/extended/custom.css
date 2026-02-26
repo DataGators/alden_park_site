@@ -261,7 +261,7 @@ body {
 
 /* increase size of text of menu items and add letter spacing for better readability and vintage feel */
 #menu a {
-    font-size: 1.rem;
+    font-size: 1rem;
     letter-spacing: 0.35px;
     padding: 0.1rem 0;
 }
@@ -574,13 +574,8 @@ body {
 
 /* Post subtitle/description text */
 .post-description {
-    /* CHANGED (2026-02-26): The original line had bare unquoted text after the
-       semicolon ("Note: typeface is too light...") which is invalid CSS.
-       Browsers silently ignore it, but Hugo's esbuild minifier (used on Netlify
-       via --minify) treats it as a parse error and drops the entire rule block,
-       causing the description to lose its colour on the deployed site.
-       Moved the note into a proper CSS comment and removed the dead
-       '/* color: var(--military-brown); *\/ alternative. */
+    /* Keep this block strictly valid CSS so minifiers (including Netlify builds)
+       preserve all subsequent rules, especially code-block styling. */
     color: var(--vintage-paper);
     font-size: 1.2rem;
 }
@@ -642,7 +637,9 @@ body {
 
 /* Code block (pre) styling */
 .post-content pre,
-.entry-content pre {
+.entry-content pre,
+.main pre,
+.highlight pre {
     /* Dark background for code blocks - change rgba values for transparency */
     background: rgba(0, 0, 0, 0.6);
     /* Green border indicates code */
@@ -658,7 +655,9 @@ body {
 
 /* Code text inside code blocks */
 .post-content pre code,
-.entry-content pre code {
+.entry-content pre code,
+.main pre code,
+.highlight pre code {
     background: transparent;
     border: none;
     box-shadow: none;

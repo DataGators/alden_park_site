@@ -68,7 +68,7 @@ body {
 .enigma-header {
     background: linear-gradient(135deg, var(--enigma-dark) 0%, var(--military-brown) 100%);
     border-bottom: 4px solid var(--allegheny-gold);
-    padding: 2rem;
+    padding: 1.25rem 1.25rem 1rem;
     text-align: center;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
     position: relative;
@@ -96,7 +96,7 @@ body {
 .header-classified {
     position: relative;
     z-index: 1;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .classified-text {
@@ -115,7 +115,7 @@ body {
 .header-logo {
     position: relative;
     z-index: 1;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .header-logo h1 {
@@ -133,8 +133,8 @@ body {
 
 .tagline {
     color: var(--allegheny-gold);
-    font-size: 1.1rem;
-    margin: 0.5rem 0 0 0;
+    font-size: 1rem;
+    margin: 0.35rem 0 0 0;
     font-style: italic;
     text-shadow: 0 0 5px var(--neon-orange);
 }
@@ -142,16 +142,21 @@ body {
 .header-morse {
     position: relative;
     z-index: 1;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
 }
 
 .header-morse span {
     display: block;
-    color: var(--military-olive);
-    font-size: 1.2rem;
-    letter-spacing: 8px;
+    color: var(--neon-green);
+    font-size: 1rem;
+    letter-spacing: 5px;
     font-family: 'Courier New', monospace;
     font-weight: bold;
+    text-shadow:
+        0 0 14px var(--neon-green),
+        0 0 30px var(--neon-green),
+        0 0 46px var(--neon-green);
+    animation: neonPulse 1.8s ease-in-out infinite alternate;
 }
 
 .main {
@@ -194,6 +199,27 @@ body {
     font-size: 1.5rem;
     color: var(--allegheny-gold) !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#menu {
+    gap: 0.55rem;
+}
+
+#menu li + li {
+    margin-inline-start: 0 !important;
+}
+
+#menu a {
+    font-size: 0.82rem;
+    letter-spacing: 0.35px;
+    padding: 0.1rem 0;
+}
+
+@media (max-width: 900px) {
+    #menu a {
+        font-size: 0.74rem;
+        letter-spacing: 0.2px;
+    }
 }
 
 /* ========================================

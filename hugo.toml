@@ -16,6 +16,7 @@ ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
+disableThemeToggle = true
 comments = false
 hidemeta = false
 hideSummary = false
@@ -48,21 +49,21 @@ favicon32x32 = "/favicon-32x32.png"
 [menu]
 [[menu.main]]
 identifier = "home"
-name = "🏠"
+name = "🏠 Home"
 title = "Home"
 url = "/"
 weight = 10
 
 [[menu.main]]
 identifier = "about"
-name = "📖"
+name = "📖 About"
 title = "About"
 url = "/about/"
 weight = 20
 
 [[menu.main]]
 identifier = "codes"
-name = "🔐"
+name = "🔐 Codes"
 title = "The Codes"
 url = "/codes/"
 weight = 30
@@ -76,49 +77,49 @@ weight = 40
 
 [[menu.main]]
 identifier = "rules"
-name = "📋"
+name = "📋 Rules"
 title = "Rules & FAQ"
 url = "/rules/"
 weight = 50
 
 [[menu.main]]
 identifier = "tips"
-name = "💡"
+name = "💡 Tips"
 title = "Tips"
 url = "/tips/"
 weight = 55
 
 [[menu.main]]
 identifier = "live"
-name = "💻"
+name = "💻 Programming"
 title = "Live Notebooks"
 url = "/live/"
 weight = 58
 
 [[menu.main]]
 identifier = "contact"
-name = "📞"
+name = "📞 Contact"
 title = "Contact"
 url = "/contact/"
 weight = 60
 
 [[menu.main]]
 identifier = "resources"
-name = "📚"
+name = "📚 Resources"
 title = "Resources"
 url = "/resources/"
 weight = 65
 
 [[menu.main]]
 identifier = "posts"
-name = "📢"
+name = "📢 Posts"
 title = "News"
 url = "/posts/"
 weight = 70
 
 [[menu.main]]
 identifier = "search"
-name = "🔍"
+name = "🔍 Search"
 title = "Search"
 url = "/search/"
 weight = 75

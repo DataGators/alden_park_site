@@ -139,38 +139,23 @@ For each cipher:
 
 ## 📤 Submission Requirements
 
-### What to Submit
+### What and How to Submit
+
+```
+Github submission details to add.
+Github submission details to add.
+Github submission details to add.
+Github submission details to add.
+Github submission details to add.
+```
 
 For each cipher you solve:
 
 1. **Decrypted plaintext** - The decoded message
 2. **Source code** - Your breaking program/script
 3. **Brief explanation** - How your solution works (2-3 sentences)
-4. **(Optional)** Step-by-step process documentation
+4. **(Optional)** Step-by-step process documentation 
 
-### How to Submit
-
-- Submit via the event platform (details provided at event)
-- Include team name and members on all submissions
-- Submit each cipher separately as you solve them
-- You can resubmit if you find errors
-
-### Format
-
-```
-Team Name: [Your Team Name]
-Team Members: [Names]
-Cipher: [Caesar/Vigenère/Substitution/Mystery]
-
-PLAINTEXT:
-[Your decrypted message here]
-
-METHOD EXPLANATION:
-[Brief explanation of your approach]
-
-SOURCE CODE:
-[Your code here]
-```
 
 <div class="morse-divider">-.. --. </div>
 
@@ -189,26 +174,19 @@ SOURCE CODE:
 - **Best Methodology** - Most elegant solution
 - **Perseverance Award** - Best effort and learning
 
-### Everyone Wins
-
-All participants receive:
-- Event lanyard and sticker
-- Access to solution walkthroughs after the event
-- Experience with real cryptanalysis
-- Free food and refreshments during event
 
 <div class="typewriter">
 "At Bletchley Park, the reward wasn't glory—it was the satisfaction of a problem solved. Also, occasionally tea and biscuits."
 </div>
 
 <div class="morse-divider">-.. --. </div>
-
+ -->
 ## ❓ Frequently Asked Questions
 
 ### Registration & Eligibility
 
 **Q: Do I need to register in advance?**  
-A: No advance registration required. Just show up at the event desk on the day.
+A: Yes and no, we ask that you complete the attendance form prior to beginning. 
 
 **Q: I'm a freshman/non-CS major. Can I still participate?**  
 A: Absolutely! All students are welcome, regardless of major or year.
@@ -225,7 +203,7 @@ A: No, the event is completely free.
 A: Bring your laptop with your preferred programming environment set up. Chargers recommended!
 
 **Q: What programming languages can I use?**  
-A: Any language you're comfortable with. Python, Java, JavaScript, C++, etc. are all fine.
+A: Any language you're comfortable with. Python, Java, JavaScript, C++, etc. are all fine. We offer Python code on this website to get you started with your solutions. See [Codes](/codes/) menu item.
 
 **Q: Do I need special software?**  
 A: No special software required. A text editor and programming language interpreter/compiler are enough.

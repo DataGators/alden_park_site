@@ -1,0 +1,28 @@
+/* Netlify-safe fallback for markdown fenced blocks on codes pages */
+.post-content pre,
+.entry-content pre,
+.main .post-content pre,
+.main .entry-content pre {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border: 2px solid var(--neon-green) !important;
+    border-radius: 8px !important;
+    padding: 1.5rem !important;
+    overflow-x: auto !important;
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2), inset 0 0 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+.post-content pre code,
+.entry-content pre code,
+.main .post-content pre code,
+.main .entry-content pre code {
+    display: block !important;
+    background: transparent !important;
+    color: var(--neon-green) !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-family: 'Courier New', monospace !important;
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+    white-space: pre !important;
+    word-break: normal !important;
+}
